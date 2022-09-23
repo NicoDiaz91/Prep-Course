@@ -129,6 +129,7 @@ function esPar(num) {
   } else {
     resultado = false
   }
+  return resultado
 }
 
 function esImpar(num) {
@@ -222,7 +223,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return ("El area del rectangulo es de " + alto * ancho)
+  return (alto * ancho)
 }
 
 
